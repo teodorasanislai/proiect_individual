@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calendar</title>
+    <link href="calendar.css" rel="stylesheet">
+    <script async src="scriptCalendar.js"></script>
+</head>
+
+<body>
+
+    <div id="cal-wrap">
+        <div id="cal-date">
+            <select id="cal-mth"></select>
+            <select id="cal-yr"></select>
+        </div>
+
+        <div class=box>
+            <div id="cal-container"></div>
+        </div>
+
+
+        <form id="cal-event">
+            <h1 id="evt-head"></h1>
+            <div id="evt-date"></div>
+            <textarea id="evt-details" required></textarea>
+            <input id="evt-close" type="button" value="Close" />
+            <input id="evt-del" type="button" value="Delete" />
+            <input id="evt-save" type="submit" value="Save" />
+        </form>
+
+    </div>
+</body>
+
+</html>
